@@ -1,0 +1,16 @@
+info face="Font" size=9 bold=0 italic=0 charset="" unicode=0 stretchH=330 smooth=0 aa=0 padding=0,0,0,0 spacing=1,1
+common lineHeight=9 base=9 scaleW=551 scaleH=330 pages=1 packed=0
+page id=0 file="character.png"
+chars count=11
+char id=44 x=511 y=269 width=38 height=60 xoffset=0 yoffset=0 xadvance=38 page=0 chnl=0
+char id=48 x=435 y=267 width=57 height=60 xoffset=0 yoffset=0 xadvance=57 page=0 chnl=0
+char id=49 x=28 y=270 width=29 height=54 xoffset=0 yoffset=0 xadvance=29 page=0 chnl=0
+char id=50 x=59 y=269 width=42 height=55 xoffset=0 yoffset=0 xadvance=42 page=0 chnl=0
+char id=51 x=105 y=269 width=41 height=55 xoffset=0 yoffset=0 xadvance=41 page=0 chnl=0
+char id=52 x=148 y=268 width=50 height=56 xoffset=0 yoffset=0 xadvance=50 page=0 chnl=0
+char id=53 x=199 y=267 width=40 height=57 xoffset=0 yoffset=0 xadvance=40 page=0 chnl=0
+char id=54 x=243 y=267 width=47 height=57 xoffset=0 yoffset=0 xadvance=47 page=0 chnl=0
+char id=55 x=291 y=266 width=42 height=59 xoffset=0 yoffset=0 xadvance=42 page=0 chnl=0
+char id=56 x=336 y=266 width=45 height=60 xoffset=0 yoffset=0 xadvance=45 page=0 chnl=0
+char id=57 x=384 y=266 width=48 height=60 xoffset=0 yoffset=0 xadvance=48 page=0 chnl=0
+kernings count=-1

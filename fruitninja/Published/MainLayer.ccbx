@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Document
+        jsControlled="true"
+        jsController="MainLayer"
+        resolution="default2"
+        >
+
+  <Resolutions>
+    <Resolution centeredOrigin="false" ext="iphone" height="1280" width="720" name="default" scale="1"/>
+    <Resolution centeredOrigin="false" ext="iphone" height="720" width="1280" name="default1" scale="1"/>
+    <Resolution centeredOrigin="false" ext="iphone" height="480" width="640" name="default2" scale="1"/>
+  </Resolutions>
+
+  <Animations>
+    <Animation autoPlay="true"
+               id="0"
+               name="Default Timeline"
+               length="10"
+               chainedId="0"
+               offset="0.0"
+               position="0.0"
+               resolution="30"
+               scale="128">
+      <CallbackChannel>
+      </CallbackChannel>
+      <SoundChannel>
+      </SoundChannel>
+    </Animation>
+
+  </Animations>
+  <Layer
+          positionX="0" positionY="0.0"
+          sizeType="Percent"
+          width="100" height="100"
+          anchorPointX="0.5" anchorPointY="0.5" ignoreAnchorPoint="true"
+          scaleX="1" scaleY="1"
+          >
+    <Sprite positionType="LeftBottom" positionX="0" positionY="0" anchorPointX="0"
+                  anchorPointY="0" src="res/background.jpg" width="640.0" height="480.0">
+      <Sprite positionType="LeftBottom" positionX="32.25" positionY="451.0" anchorPointX="0.5"
+              anchorPointY="0.5" src="res/main.plist/score.png" width="29.0" height="31.0">
+      </Sprite>
+      <Sprite positionType="LeftBottom" positionX="296.0" positionY="450.0" anchorPointX="0.5"
+              anchorPointY="0.5" src="res/fruit.plist/apple.png" width="66.0" height="66.0" scaleX="0.5" scaleY="0.5" visible="false"/>
+    </Sprite>
+    <Sprite positionType="LeftBottom" positionX="608.75" positionY="456.0" anchorPointX="0.5"
+            anchorPointY="0.5" src="res/main.plist/xxxf.png" width="32.0" height="32.0" visible="false"/>
+    <LabelBMFont positionType="LeftBottom" positionX="577.0" positionY="457.75" anchorPointX="0.5"
+                 anchorPointY="0.5" src="res/fonts/font4.fnt" text="60" var="totalTimeFont" target="Doc" scaleX="0.7" scaleY="0.7"/>
+    <LabelTTF positionType="LeftBottom" positionX="493.25" positionY="453.0" anchorPointX="0.5"
+              anchorPointY="0.5" text="剩余时间：" color="#ffff6218" fontSize="20"/>
+    <LabelBMFont positionType="LeftBottom" positionX="71.25" positionY="456.5" anchorPointX="0.5"
+                 anchorPointY="0.5" src="res/fonts/s_number_gold.fnt" text="0" scaleX="1" scaleY="1" var="totalScoreFont" target="Doc"/>
+    <LabelTTF positionType="LeftBottom" positionX="174.0" positionY="454.0" anchorPointX="0.5"
+              anchorPointY="0.5" color="#ffffee2d" text="最佳成绩：0" fontSize="20" visible="true" var="bestScoreLabel" target="Doc"/>
+
+    <LabelTTF positionType="LeftBottom" positionX="595.5" positionY="19.5" anchorPointX="0.5"
+              anchorPointY="0.5" var="back" target="Doc" text="返回菜单" fontSize="20" fontName="Georgia" color="#ff1fff5c">
+    </LabelTTF>
+    <LabelTTF positionType="LeftBottom" positionX="50.0" positionY="23.0" anchorPointX="0.5"
+              anchorPointY="0.5" target="Doc" var="pause" text="暂停游戏" color="#ff1fff5c" fontSize="20" fontName="Georgia" visible="false"/>
+    <LabelTTF positionType="LeftBottom" positionX="94.0" positionY="18.0" anchorPointX="0.5"
+              anchorPointY="0.5" fontSize="15" text="@TouchSnow CocosEditor" color="#ff000000"/>
+    <LayerColor positionType="LeftBottom" positionX="0" positionY="0" anchorPointX="0"
+                anchorPointY="0" width="640" height="480" color="#b0000000" var="overLayer" target="Doc" visible="false">
+      <Sprite positionType="LeftBottom" positionX="326.0" positionY="267.0" anchorPointX="0.5"
+              anchorPointY="0.5" src="res/main.plist/game-over.png" width="490.0" height="85.0" var="overSprite" target="Doc" visible="true">
+        <LabelTTF positionType="LeftBottom" positionX="249.0" positionY="-56.0" anchorPointX="0.5"
+                  anchorPointY="0.5" text="你获得了100分" fontSize="40" color="#ffff1f1c" var="overScoreLabel" target="Doc"/>
+        <LabelTTF positionType="LeftBottom" positionX="240.0" positionY="136.0" anchorPointX="0.5"
+                  anchorPointY="0.5" text="作者：TouchSnow 工具：CocosEditor" fontSize="20" color="#ffff27ee" fontName="Arial Black"/>
+      </Sprite>
+    </LayerColor>
+
+  </Layer>
+
+
+</Document>

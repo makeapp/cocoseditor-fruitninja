@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Document
+        jsControlled="true"
+        jsController="StartLayer"
+        resolution="default2"
+        >
+
+  <Resolutions>
+    <Resolution centeredOrigin="false" ext="iphone" height="1280" width="720" name="default" scale="1"/>
+    <Resolution centeredOrigin="false" ext="iphone" height="720" width="1280" name="default1" scale="1"/>
+    <Resolution centeredOrigin="false" ext="iphone" height="480" width="640" name="default2" scale="1"/>
+  </Resolutions>
+
+  <Animations>
+    <Animation autoPlay="true"
+               id="0"
+               name="Default Timeline"
+               length="10"
+               chainedId="0"
+               offset="0.0"
+               position="0.0"
+               resolution="30"
+               scale="128">
+      <CallbackChannel>
+      </CallbackChannel>
+      <SoundChannel>
+      </SoundChannel>
+    </Animation>
+
+  </Animations>
+
+  <Layer
+          positionX="0" positionY="0"
+          width="100" height="100" sizeType="Percent"
+          anchorPointX="0.5" anchorPointY="0.5" ignoreAnchorPoint="true"
+          scaleX="1" scaleY="1"
+          touchEnabled="true" positionType="LeftBottom">
+    <Sprite positionType="LeftBottom" positionX="0" positionY="0" anchorPointX="0"
+            anchorPointY="0" src="res/background.jpg" width="640.0" height="480.0">
+      <LabelTTF positionType="LeftBottom" positionX="348.0" positionY="12.0" anchorPointX="0.5"
+                anchorPointY="0.5" text="更多开源游戏源码请进入官方博客：www.blog.makeapp.co" fontSize="14" color="#ffff27ee"/>
+      <LabelTTF positionType="LeftBottom" positionX="538.0" positionY="298.0" anchorPointX="0.5"
+                anchorPointY="0.5" text="开发工具 CocosEditor" color="#ffffef25">
+      </LabelTTF>
+      <LabelTTF positionType="LeftBottom" positionX="534.0" positionY="326.0" anchorPointX="0.5"
+                anchorPointY="0.5" text="作者 TouchSnow" color="#ffffe521"/>
+      <LabelTTF positionType="LeftBottom" positionX="534.0" positionY="264.0" anchorPointX="0.5"
+                anchorPointY="0.5" text="时间 2014-03-29" color="#fffffd2f"/>
+      <LabelTTF positionType="LeftBottom" positionX="488.0" positionY="454.0"
+                anchorPointX="0.5" anchorPointY="0.5" text="csdn博客：http://blog.csdn.net/touchsnow"
+                fontSize="14" color="#ffff27ee"/>
+    </Sprite>
+    <Sprite positionType="LeftBottom" positionX="0" positionY="295.0" anchorPointX="0"
+            anchorPointY="0" src="res/home-mask.png" width="640.0" height="183.0" visible="true">
+      <Sprite positionType="LeftBottom" positionX="163.33333" positionY="116.666664" anchorPointX="0.5"
+              anchorPointY="0.5" src="res/main.plist/logo.png" width="288.0" height="135.0"/>
+      <Sprite positionType="LeftBottom" positionX="459.99997" positionY="104.99999" anchorPointX="0.5"
+              anchorPointY="0.5" src="res/main.plist/ninja.png" width="244.0" height="81.0"/>
+      <Sprite positionType="LeftBottom" positionX="106.0" positionY="-19.0" anchorPointX="0.5"
+              anchorPointY="0.5" src="res/main.plist/home-desc.png" width="161.0" height="91.0"/>
+    </Sprite>
+    <Sprite positionType="LeftBottom" positionX="118.25" positionY="139.5" anchorPointX="0.5"
+            anchorPointY="0.5" src="res/main.plist/dojo.png" width="175.0" height="175.0" var="dojoRing" target="Doc"></Sprite>
+    <Sprite positionType="LeftBottom" positionX="374.75" positionY="216.0" anchorPointX="0.5"
+            anchorPointY="0.5" src="res/main.plist/new-game.png" width="195.0" height="195.0" var="newGameRing" target="Doc">
+    </Sprite>
+    <Sprite positionType="LeftBottom" positionX="553.25" positionY="105.25" anchorPointX="0.5"
+            anchorPointY="0.5" src="res/main.plist/quit.png" width="141.0" height="141.0" var="quitRing" target="Doc">
+    </Sprite>
+    <Sprite positionType="LeftBottom" positionX="117.25" positionY="141.5" anchorPointX="0.5"
+            anchorPointY="0.5" src="res/fruit.plist/peach.png" width="62.0" height="59.0" var="dojoFruit" target="Doc"/>
+    <Sprite positionType="LeftBottom" positionX="375.0" positionY="216.0" anchorPointX="0.5"
+            anchorPointY="0.5" src="res/fruit.plist/sandia.png" width="98.0" height="85.0" var="newGameFruit" target="Doc"/>
+    <Sprite positionType="LeftBottom" positionX="552.25" positionY="103.25" anchorPointX="0.5"
+            anchorPointY="0.5" src="res/fruit.plist/boom.png" width="66.0" height="68.0" scaleX="0.8" scaleY="0.8" var="quitFruit" target="Doc"/>
+  </Layer>
+
+
+</Document>
